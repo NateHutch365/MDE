@@ -1,0 +1,96 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2023-08-18T08:58:49.9145233Z",
+  "creationSource": null,
+  "description": "",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2023-08-18T08:58:49.9145233Z",
+  "name": "macOS - Preferences - Enable Network Protection",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "macOS",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 1,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm,appleRemoteManagement",
+  "id": "f210e521-203a-431a-bf5f-8f901b4e611a",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/assignments",
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "com.apple.managedclient.preferences_enforcementlevel",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "com.apple.managedclient.preferences_enforcementlevel_2",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/settings('0')/settingDefinitions"
+    }
+  ],
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/microsoft.graph.assign"
+  },
+  "#microsoft.graph.createCopy": {
+    "title": "microsoft.graph.createCopy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/microsoft.graph.createCopy"
+  },
+  "#microsoft.graph.reorder": {
+    "title": "microsoft.graph.reorder",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('f210e521-203a-431a-bf5f-8f901b4e611a')/microsoft.graph.reorder"
+  },
+  "assignments": [
+    {
+      "id": "f210e521-203a-431a-bf5f-8f901b4e611a_29483125-1a76-4c8a-b3c1-018ccc792b2e",
+      "source": "direct",
+      "sourceId": "f210e521-203a-431a-bf5f-8f901b4e611a",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "29483125-1a76-4c8a-b3c1-018ccc792b2e"
+      }
+    },
+    {
+      "id": "f210e521-203a-431a-bf5f-8f901b4e611a_9cfc60a6-128b-483d-8289-94eff0baba76",
+      "source": "direct",
+      "sourceId": "f210e521-203a-431a-bf5f-8f901b4e611a",
+      "target": {
+        "@odata.type": "#microsoft.graph.groupAssignmentTarget",
+        "deviceAndAppManagementAssignmentFilterId": null,
+        "deviceAndAppManagementAssignmentFilterType": "none",
+        "groupId": "9cfc60a6-128b-483d-8289-94eff0baba76"
+      }
+    }
+  ]
+}

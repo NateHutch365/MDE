@@ -1,0 +1,59 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations(assignments())/$entity",
+  "@odata.type": "#microsoft.graph.macOSCustomConfiguration",
+  "@odata.id": "deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')",
+  "@odata.editLink": "deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration",
+  "id": "51defb5b-8f3f-49b6-945d-a341a4a128ee",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2023-08-15T11:04:23.9572915Z",
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "deviceManagementApplicabilityRuleOsEdition": null,
+  "deviceManagementApplicabilityRuleOsVersion": null,
+  "deviceManagementApplicabilityRuleDeviceMode": null,
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2023-08-13T21:15:11.7888986Z",
+  "description": null,
+  "displayName": "macOS - Preferences - Configuration Settings for MDE",
+  "version": 2,
+  "payloadName": "com.microsoft.wdav",
+  "payloadFileName": "com.microsoft.wdav.xml",
+  "payload@odata.type": "#Binary",
+  "payload": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhRE9DVFlQRSBwbGlzdCBQVUJMSUMgIi0vL0FwcGxlLy9EVEQgUExJU1QgMS4wLy9FTiIgImh0dHA6Ly93d3cuYXBwbGUuY29tL0RURHMvUHJvcGVydHlMaXN0LTEuMC5kdGQiPg0KPHBsaXN0IHZlcnNpb249IjEiPg0KICAgIDxkaWN0Pg0KICAgICAgICA8a2V5PlBheWxvYWRVVUlEPC9rZXk+DQogICAgICAgIDxzdHJpbmc+QzRFNkE3ODItMEM4RC00NEFCLUEwMjUtRUI4OTM5ODdBMjk1PC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZFR5cGU8L2tleT4NCiAgICAgICAgPHN0cmluZz5Db25maWd1cmF0aW9uPC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZE9yZ2FuaXphdGlvbjwva2V5Pg0KICAgICAgICA8c3RyaW5nPk1pY3Jvc29mdDwvc3RyaW5nPg0KICAgICAgICA8a2V5PlBheWxvYWRJZGVudGlmaWVyPC9rZXk+DQogICAgICAgIDxzdHJpbmc+Y29tLm1pY3Jvc29mdC53ZGF2PC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZERpc3BsYXlOYW1lPC9rZXk+DQogICAgICAgIDxzdHJpbmc+TWljcm9zb2Z0IERlZmVuZGVyIGZvciBFbmRwb2ludCBzZXR0aW5nczwvc3RyaW5nPg0KICAgICAgICA8a2V5PlBheWxvYWREZXNjcmlwdGlvbjwva2V5Pg0KICAgICAgICA8c3RyaW5nPk1pY3Jvc29mdCBEZWZlbmRlciBmb3IgRW5kcG9pbnQgY29uZmlndXJhdGlvbiBzZXR0aW5nczwvc3RyaW5nPg0KICAgICAgICA8a2V5PlBheWxvYWRWZXJzaW9uPC9rZXk+DQogICAgICAgIDxpbnRlZ2VyPjE8L2ludGVnZXI+DQogICAgICAgIDxrZXk+UGF5bG9hZEVuYWJsZWQ8L2tleT4NCiAgICAgICAgPHRydWUvPg0KICAgICAgICA8a2V5PlBheWxvYWRSZW1vdmFsRGlzYWxsb3dlZDwva2V5Pg0KICAgICAgICA8dHJ1ZS8+DQogICAgICAgIDxrZXk+UGF5bG9hZFNjb3BlPC9rZXk+DQogICAgICAgIDxzdHJpbmc+U3lzdGVtPC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZENvbnRlbnQ8L2tleT4NCiAgICAgICAgPGFycmF5Pg0KICAgICAgICAgICAgPGRpY3Q+DQogICAgICAgICAgICAgICAgPGtleT5QYXlsb2FkVVVJRDwva2V5Pg0KICAgICAgICAgICAgICAgIDxzdHJpbmc+OTlEQkMyQkMtM0IzQS00NkEyLUE0MTMtQzhGOUJCOUE3Mjk1PC9zdHJpbmc+DQogICAgICAgICAgICAgICAgPGtleT5QYXlsb2FkVHlwZTwva2V5Pg0KICAgICAgICAgICAgICAgIDxzdHJpbmc+Y29tLm1pY3Jvc29mdC53ZGF2PC9zdHJpbmc+DQogICAgICAgICAgICAgICAgPGtleT5QYXlsb2FkT3JnYW5pemF0aW9uPC9rZXk+DQogICAgICAgICAgICAgICAgPHN0cmluZz5NaWNyb3NvZnQ8L3N0cmluZz4NCiAgICAgICAgICAgICAgICA8a2V5PlBheWxvYWRJZGVudGlmaWVyPC9rZXk+DQogICAgICAgICAgICAgICAgPHN0cmluZz5jb20ubWljcm9zb2Z0LndkYXY8L3N0cmluZz4NCiAgICAgICAgICAgICAgICA8a2V5PlBheWxvYWREaXNwbGF5TmFtZTwva2V5Pg0KICAgICAgICAgICAgICAgIDxzdHJpbmc+TWljcm9zb2Z0IERlZmVuZGVyIGZvciBFbmRwb2ludCBjb25maWd1cmF0aW9uIHNldHRpbmdzPC9zdHJpbmc+DQogICAgICAgICAgICAgICAgPGtleT5QYXlsb2FkRGVzY3JpcHRpb248L2tleT4NCiAgICAgICAgICAgICAgICA8c3RyaW5nLz4NCiAgICAgICAgICAgICAgICA8a2V5PlBheWxvYWRWZXJzaW9uPC9rZXk+DQogICAgICAgICAgICAgICAgPGludGVnZXI+MTwvaW50ZWdlcj4NCiAgICAgICAgICAgICAgICA8a2V5PlBheWxvYWRFbmFibGVkPC9rZXk+DQogICAgICAgICAgICAgICAgPHRydWUvPg0KICAgICAgICAgICAgICAgIDxrZXk+YW50aXZpcnVzRW5naW5lPC9rZXk+DQogICAgICAgICAgICAgICAgPGRpY3Q+DQogICAgICAgICAgICAgICAgICAgIDxrZXk+ZW5mb3JjZW1lbnRMZXZlbDwva2V5Pg0KICAgICAgICAgICAgICAgICAgICA8c3RyaW5nPnJlYWxfdGltZTwvc3RyaW5nPg0KICAgICAgICAgICAgICAgICAgICA8a2V5PnRocmVhdFR5cGVTZXR0aW5nczwva2V5Pg0KICAgICAgICAgICAgICAgICAgICA8YXJyYXk+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGljdD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8a2V5PmtleTwva2V5Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzdHJpbmc+cG90ZW50aWFsbHlfdW53YW50ZWRfYXBwbGljYXRpb248L3N0cmluZz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8a2V5PnZhbHVlPC9rZXk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN0cmluZz5ibG9jazwvc3RyaW5nPg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaWN0Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPGRpY3Q+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGtleT5rZXk8L2tleT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RyaW5nPmFyY2hpdmVfYm9tYjwvc3RyaW5nPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxrZXk+dmFsdWU8L2tleT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3RyaW5nPmF1ZGl0PC9zdHJpbmc+DQogICAgICAgICAgICAgICAgICAgICAgICA8L2RpY3Q+DQogICAgICAgICAgICAgICAgICAgIDwvYXJyYXk+DQogICAgICAgICAgICAgICAgPC9kaWN0Pg0KICAgICAgICAgICAgICAgIDxrZXk+Y2xvdWRTZXJ2aWNlPC9rZXk+DQogICAgICAgICAgICAgICAgPGRpY3Q+DQogICAgICAgICAgICAgICAgICAgIDxrZXk+ZW5hYmxlZDwva2V5Pg0KICAgICAgICAgICAgICAgICAgICA8dHJ1ZS8+DQogICAgICAgICAgICAgICAgICAgIDxrZXk+YXV0b21hdGljU2FtcGxlU3VibWlzc2lvbjwva2V5Pg0KICAgICAgICAgICAgICAgICAgICA8dHJ1ZS8+DQogICAgICAgICAgICAgICAgICAgIDxrZXk+YXV0b21hdGljRGVmaW5pdGlvblVwZGF0ZUVuYWJsZWQ8L2tleT4NCiAgICAgICAgICAgICAgICAgICAgPHRydWUvPg0KICAgICAgICAgICAgICAgIDwvZGljdD4NCiAgICAgICAgICAgICAgICA8a2V5PnRhbXBlclByb3RlY3Rpb248L2tleT4NCiAgICAgICAgICAgICAgICA8ZGljdD4NCiAgICAgICAgICAgICAgICAgICAgPGtleT5lbmZvcmNlbWVudExldmVsPC9rZXk+DQogICAgICAgICAgICAgICAgICAgIDxzdHJpbmc+YmxvY2s8L3N0cmluZz4NCiAgICAgICAgICAgICAgICA8L2RpY3Q+DQogICAgICAgICAgICA8L2RpY3Q+DQogICAgICAgIDwvYXJyYXk+DQogICAgPC9kaWN0Pg0KPC9wbGlzdD4=",
+  "deploymentChannel@odata.type": "#microsoft.graph.appleDeploymentChannel",
+  "deploymentChannel": "deviceChannel",
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/assignments",
+  "deviceSettingStateSummaries@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceSettingStateSummaries/$ref",
+  "deviceSettingStateSummaries@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceSettingStateSummaries",
+  "deviceStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceStatuses/$ref",
+  "deviceStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceStatuses",
+  "deviceStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceStatusOverview/$ref",
+  "deviceStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/deviceStatusOverview",
+  "groupAssignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/groupAssignments/$ref",
+  "groupAssignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/groupAssignments",
+  "userStatuses@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/userStatuses/$ref",
+  "userStatuses@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/userStatuses",
+  "userStatusOverview@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/userStatusOverview/$ref",
+  "userStatusOverview@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.macOSCustomConfiguration/userStatusOverview",
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.deviceConfiguration/microsoft.graph.assign"
+  },
+  "#microsoft.graph.assignedAccessMultiModeProfiles": {
+    "title": "microsoft.graph.assignedAccessMultiModeProfiles",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.deviceConfiguration/microsoft.graph.assignedAccessMultiModeProfiles"
+  },
+  "#microsoft.graph.windowsPrivacyAccessControls": {
+    "title": "microsoft.graph.windowsPrivacyAccessControls",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.deviceConfiguration/microsoft.graph.windowsPrivacyAccessControls"
+  },
+  "#microsoft.graph.getOmaSettingPlainTextValue": {
+    "title": "microsoft.graph.getOmaSettingPlainTextValue",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/deviceConfigurations('51defb5b-8f3f-49b6-945d-a341a4a128ee')/microsoft.graph.deviceConfiguration/microsoft.graph.getOmaSettingPlainTextValue"
+  }
+}
