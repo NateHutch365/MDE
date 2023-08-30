@@ -6,7 +6,7 @@ You should always test thoroughly in your own development environment before dep
 
 # Important! - You **must** download your own onboarding package from the Microsoft Defender portal
 
-I cannot provide the onbaording package for MDE as this is specific to your tenant - You can follow the steps here to download your onboarding package - https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mac-install-with-intune?view=o365-worldwide#download-the-onboarding-package - The file you will need is the **WindowsDefenderATPOnboarding.xml** 
+I cannot provide the onboarding package for MDE as this is specific to your tenant - You can follow the steps here to download your onboarding package - https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mac-install-with-intune?view=o365-worldwide#download-the-onboarding-package - The file you will need is the **WindowsDefenderATPOnboarding.xml** 
 
 ![Alt text](image-1.png)
 
@@ -51,7 +51,7 @@ This configuration profile grants Full Disk Access to Microsoft Defender for End
 This profile configures the preferences for MDE - It uses the Intune recommended profile provided by Microsoft here - https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/mac-preferences?view=o365-worldwide#intune-recommended-profile 
 
 It enables the following:
-- Real-Time Protection
+- Real-Time Protection set to Enabled
 - Potentially unwnated applications set to Block
 - Archive Bomb set to Audit
 - Cloud-delivered protection set to Enabled
